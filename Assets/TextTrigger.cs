@@ -6,6 +6,11 @@ public class TextTrigger : MonoBehaviour
 {
     public CharText[] texts;
     public Char[] characters;
+
+    public void startTalk()
+    {
+        FindObjectOfType<TextManager>().OpenDialogue(texts, characters);
+    }
 }
 [System.Serializable]
 public class CharText
