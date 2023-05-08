@@ -666,6 +666,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TextBox
       objectReference: {fileID: 0}
+    - target: {fileID: 4601273509481820520, guid: 5debe9441ee069144a9aa65ad7e21a82, type: 3}
+      propertyPath: m_TagString
+      value: TextManager
+      objectReference: {fileID: 0}
     - target: {fileID: 4601273509481820535, guid: 5debe9441ee069144a9aa65ad7e21a82, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -720,15 +724,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4601273509481820535, guid: 5debe9441ee069144a9aa65ad7e21a82, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4601273509481820535, guid: 5debe9441ee069144a9aa65ad7e21a82, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4601273509481820535, guid: 5debe9441ee069144a9aa65ad7e21a82, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4601273509481820535, guid: 5debe9441ee069144a9aa65ad7e21a82, type: 3}
       propertyPath: m_AnchoredPosition.x

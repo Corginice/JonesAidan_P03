@@ -25,7 +25,7 @@ public class TextManager : MonoBehaviour
         DisplayText();
     }
 
-    void DisplayText()
+    public void DisplayText()
     {
         CharText textToDisplay = texts[activeText];
         messageText.text = textToDisplay.charText;
