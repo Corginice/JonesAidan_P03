@@ -6,6 +6,7 @@ public class TextTrigger : MonoBehaviour
 {
     public CharText[] texts;
     public Char[] characters;
+    
 
     public void startTalk()
     {
@@ -15,8 +16,14 @@ public class TextTrigger : MonoBehaviour
 [System.Serializable]
 public class CharText
 {
+    public Color ColorPicker;
+    [SerializeField]
+    
+
     public int charId;
     public string charText;
+
+
 
 }
 [System.Serializable]

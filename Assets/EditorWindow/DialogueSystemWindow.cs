@@ -47,7 +47,7 @@ public class DialogueSystemWindow : EditorWindow
 
         settings.DisplayText();
     }
-
+     
     void InitTextures()
     {
         headerSectionTexture = new Texture2D(1, 1);
@@ -101,7 +101,7 @@ public class DialogueSystemWindow : EditorWindow
     void drawAvatar()
     {
 
-        if (GUILayout.Button("Text", GUILayout.Height(30)))
+        if (GUILayout.Button("Avatar", GUILayout.Height(30)))
         {
             GeneralSettings.OpenWindow(GeneralSettings.SettingsType.IMAGE);
         }
@@ -109,7 +109,7 @@ public class DialogueSystemWindow : EditorWindow
 
     void drawName()
     {
-        if (GUILayout.Button("Text", GUILayout.Height(30)))
+        if (GUILayout.Button("Name", GUILayout.Height(30)))
         {
             GeneralSettings.OpenWindow(GeneralSettings.SettingsType.NAME);
         }

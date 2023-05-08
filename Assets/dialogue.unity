@@ -359,13 +359,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texts:
-  - charId: 1
+  - ColorPicker: {r: 0, g: 0, b: 0, a: 0}
+    charId: 1
     charText: I love making a dialogue system tool in Unity
-  - charId: 2
+  - ColorPicker: {r: 0, g: 0, b: 0, a: 0}
+    charId: 2
     charText: OMG me too!!
-  - charId: 1
+  - ColorPicker: {r: 0.3019608, g: 0.3019608, b: 0.3019608, a: 0}
+    charId: 1
     charText: 'Yeah this is very intuitive '
-  - charId: 2
+  - ColorPicker: {r: 0, g: 0, b: 0, a: 0}
+    charId: 2
     charText: Especially for narrative focused games!
   characters:
   - name: 1
