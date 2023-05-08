@@ -1,18 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class AviData : MonoBehaviour
+using Types;
+[CreateAssetMenuAttribute(fileName = "NewAviData", menuName = "TextData/Avi")]
+public class AviData : TextData
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public AviType aviType;
 }

@@ -7,6 +7,7 @@ namespace Types
     public enum TextType
     {
         FONT,
+        SIZE,
         COLOR
     }
 
